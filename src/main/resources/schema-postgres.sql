@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS rooms;
+CREATE TABLE rooms(id serial PRIMARY KEY, status BOOLEAN);
